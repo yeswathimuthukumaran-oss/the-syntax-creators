@@ -1,10 +1,10 @@
-# Expense Tracker - Naan Mudhalvan Project
+# Expense Tracker - Project
 **May 2026**
 
 **Developed by:** Yeswathi CM
 
 ### About Project
-A full-stack web application to track daily expenses with complete CRUD functionality. Built using Python Flask and SQLite for Naan Mudhalvan program.
+A full-stack web application to track daily expenses with complete CRUD functionality. Built using Python Flask and SQLite .
 
 ### Tech Stack
 - **Backend:** Python, Flask
