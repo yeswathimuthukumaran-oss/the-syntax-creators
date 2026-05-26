@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{%block content%}
+<h2>Your Expenses</h2>
+<h4>Total Expenses</h4>
+<a href="/add"class="btn btn-primary mb-3">+Add Expense</a>
+<table class="table">
+
+    <tr>
+        <th>Date</th>
+        <th>Category</th>
+        <th>Amount</th>
+        <th>Note</th>
+    </tr>
+    {%for expense in expenses%}
+    <tr>
+        <td>{{expense[4]}}</td>
+        <td>{{expense[2]}}</td>
+        <td>{{expense[1]}}</td>
+        <td>{{expense[3]}}</td>
+    </tr>
+    {% endfor %}
+</table>
+{%endblock%}

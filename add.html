@@ -1,0 +1,16 @@
+{%extends"base.html"%}
+{%block content%}
+<h2>Add bew Expense</h2>
+<form method="POST">
+    <label>date:</label><br>
+    <input type="date"name="date"required><br><br>
+    <label>Category:</label><br>
+    <input type="text"name="category"placeholder="food,travel,etc"required><br><br>
+    <label>Amount:</label><br>
+    <input type="number"step="0.01"name="amount"required><br><br>
+    <label>Note:</label><br>
+    <input type="text"name="note"><br><br>
+    <button type="submit">save Expense</button>
+</form>
+<a href="/">Back to List</a>
+{% endblock %}
